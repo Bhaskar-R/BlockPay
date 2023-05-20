@@ -2,55 +2,51 @@
 
 The PaymentSystem folder contains the code for a contactless payment system using an ESP32 microcontroller and an RC522 RFID reader. This system enables secure and efficient contactless payments in the Internet of Things (IoT) environment.
 
-## Setup and Usage
+## Hardware Setup
 
-To set up and use the PaymentSystem, follow these steps:
+To set up the PaymentSystem, you will need the following components:
 
-1. Connect the ESP32 microcontroller to the RC522 RFID reader according to the provided hardware diagram.
+- ESP32 microcontroller
+- RC522 RFID reader
+- Breadboard and jumper wires
 
-2. Install the required dependencies:
-   - Install the Arduino IDE from [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
-   - Install the MFRC522 library by going to **Sketch -> Include Library -> Manage Libraries** in the Arduino IDE. Search for "MFRC522" and click the "Install" button for the library developed by Miguel Balboa.
+Follow these steps to set up the hardware:
 
-3. Open the `PaymentSystem.ino` file in the Arduino IDE.
+1. Connect the RC522 RFID reader to the ESP32 microcontroller using jumper wires. Make sure to connect the appropriate pins according to the wiring configuration given in the connections image.
 
-4. Select the appropriate board and port:
-   - Go to **Tools -> Board** and select "ESP32 Dev Module" or the relevant board option.
-   - Go to **Tools -> Port** and select the port where the ESP32 is connected.
+2. Double-check the connections to ensure they are secure and properly aligned.
 
-5. Customize the settings (e.g., Wi-Fi credentials, payment methods) in the `PaymentSystem.ino` file according to your requirements. Refer to the comments in the code for guidance.
+## Software Setup
 
-6. Click the "Upload" button in the Arduino IDE to compile and upload the code to the ESP32 microcontroller.
+To compile and upload the code to the ESP32 microcontroller, we will be using PlatformIO, an open-source ecosystem for embedded development. Follow the steps below to set up the software environment:
 
-7. Open the serial monitor in the Arduino IDE (**Tools -> Serial Monitor**) to view the system output and debug messages.
+1. Install PlatformIO on your computer by following the instructions provided in the official documentation: [PlatformIO Installation Guide](https://docs.platformio.org/en/latest/core/installation.html)
 
-8. Follow the on-screen instructions displayed in the serial monitor to perform contactless payments. You can use the provided RFID cards or tags for testing.
+2. Open the PaymentSystem folder in your preferred code editor.
 
-## Folder Structure
+3. If you haven't already, connect the ESP32 microcontroller to your computer using a USB cable.
 
-The folder structure of the PaymentSystem is as follows:
+4. Build and upload the code to the ESP32 microcontroller using PlatformIO. This can typically be done by selecting the appropriate upload command in your code editor or by using the PlatformIO command line interface.
 
-- `PaymentSystem.ino`: The main Arduino sketch file that contains the code for the contactless payment system.
-- `lib`: A folder containing the necessary libraries used in the PaymentSystem.
-- `hardware_diagram.png`: A hardware diagram illustrating the connections between the ESP32 microcontroller and the RC522 RFID reader.
+5. After the code is successfully uploaded, the PaymentSystem should be ready to use.
 
-## Dependencies
+## Usage
 
-The PaymentSystem relies on the following libraries:
+To use the PaymentSystem, follow these steps:
 
-- MFRC522 library by Miguel Balboa: [https://github.com/miguelbalboa/rfid](https://github.com/miguelbalboa/rfid)
+1. Power on the ESP32 microcontroller.
 
-Make sure to install these libraries as mentioned in the setup instructions.
+2. Hold an RFID card or tag close to the RC522 RFID reader.
+
+3. The system will detect the card and display the relevant information on the connected display or serial monitor.
+
+4. Follow the on-screen instructions to complete the payment process.
+
+5. Once the payment is processed, the system will provide a confirmation message.
+
+6. Repeat the process for subsequent payments.
 
 ## Contributing
 
-Contributions to the PaymentSystem are welcome! If you would like to contribute, please follow the guidelines outlined in the [CONTRIBUTING.md](link-to-contributing-file) file. Contributions can include bug fixes, feature implementations, and documentation improvements. Before making a contribution, please make sure to review the existing issues and pull requests to avoid duplication of effort.
-
-## License
-
-The PaymentSystem is licensed under the [MIT License](link-to-license-file). Feel free to modify and distribute it according to the terms of the license.
-
-## Contact
-
-For any inquiries or feedback related to the PaymentSystem, please contact the project team at [email protected] We appreciate your interest and look forward to hearing from you!
+Contributions are welcome! Contributions can include bug fixes, feature implementations, and documentation improvements. Before making a contribution, please make sure to review the existing issues and pull requests to avoid duplication of effort.
 

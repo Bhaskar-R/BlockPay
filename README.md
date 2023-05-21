@@ -70,5 +70,4 @@ When an Smart card is tapped on the RC522 reader, user data is transmitted to th
 Contributions are welcome! Contributions can include bug fixes, feature implementations, and documentation improvements. Before making a contribution, please make sure to review the existing issues and pull requests to avoid duplication of effort.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it according to the terms of the license.
+This project is licensed under the [MIT License](LICENSE).

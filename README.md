@@ -22,7 +22,7 @@ To set up and use the PaymentSystem:
   <img src="BlockPay.jpg" alt="BlockPay" width="480">
 </p>
 
-### The Payment System facilitates seamless transaction processing
+### The Payment System facilitating seamless transaction processing
 <p align="center">
   <img src="blockpay-transaction.png" alt="BlockPay" width="640">
 </p>

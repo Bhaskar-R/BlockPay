@@ -12,6 +12,12 @@ The SmartBlock blockchain offers the following features:
 
 3. **Committee Member Auction (CMA):** SmartBlock enhances security by implementing a Committee Member Auction method. This method achieves a 98% success rate in preventing double-spending, long-range, and eclipse attacks.
 
+## Comparision
+
+<p align="center">
+  <img src="../Comparision.png" alt="SmartBlock" width="640">
+</p>
+
 ## Installation
 
 To set up and run the SmartBlock blockchain, follow these steps:
@@ -28,6 +34,12 @@ To set up and run the SmartBlock blockchain, follow these steps:
 
 ## Usage
 Once you have installed and started the SmartBlock blockchain, you will see the transactions getting recorded if the payment made through BlockPay was successful. 
+
+### SmartBlock recording the transactions in its bidirectional blockchain system.
+
+<p align="center">
+  <img src="../smartblock-transaction.png" alt="SmartBlock" width="640">
+</p>
 
 ## Contributing
 

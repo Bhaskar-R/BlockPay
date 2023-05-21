@@ -38,7 +38,7 @@ To compile and upload the code to the ESP32 microcontroller, we will be using Pl
 
 5. After the code is successfully uploaded, the PaymentSystem should be ready to use.
 
-### The Payment System facilitates seamless transaction processing
+### The Payment System facilitating seamless transaction processing
 <p align="center">
   <img src="../blockpay-transaction.png" alt="BlockPay" width="640">
 </p>

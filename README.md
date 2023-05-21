@@ -13,6 +13,11 @@ To set up and use the PaymentSystem:
 3. Compile and upload the code to the ESP32 microcontroller.
 4. Run the PaymentSystem and follow the on-screen instructions to perform contactless payments.
 
+### Payment System Built using ESP32 and RC522 RFID Reader
+<p align="center">
+  <img src="BlockPay.jpg" alt="BlockPay" width="480">
+</p>
+
 ## SmartBlock
 
 The SmartBlock folder contains the implementation of a novel bidirectional blockchain using C++. The bidirectional blockchain offers enhanced security and scalability for resource-constrained IoT devices. It introduces a new consensus mechanism called Committee Member Auction (CMA) and utilizes the Blake and Chameleon hash functions for efficient and secure transaction processing.

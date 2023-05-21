@@ -2,6 +2,10 @@
 
 BlockPay is a secure and efficient contactless payment system that utilizes bidirectional blockchain technology for recording transactions. This project consists of two folders: PaymentSystem and SmartBlock.
 
+## Abstract
+
+The growth of the Internet of Things (IoT) has increased the demand for contactless payments via IoT devices. However, existing centralized transaction management systems in the IoT suffer from communication overhead and security issues. Blockchain technology provides a promising solution, but current blockchain-based payment systems lack security and scalability. To address these challenges, BlockPay proposes a bidirectional blockchain with the Committee Member Auction (CMA) consensus mechanism, offering secure and scalable contactless payments in the IoT.
+
 ## PaymentSystem
 
 The PaymentSystem folder contains the code for contactless payment using an ESP32 microcontroller and an RC522 RFID reader. This folder implements the hardware and software components necessary for secure contactless payments in the Internet of Things (IoT) environment. The PaymentSystem utilizes the MFRC522 library for interfacing with the RFID reader and provides a user-friendly interface for initiating and processing payments.
@@ -16,6 +20,11 @@ To set up and use the PaymentSystem:
 ### Payment System Built using ESP32 and RC522 RFID Reader
 <p align="center">
   <img src="BlockPay.jpg" alt="BlockPay" width="480">
+</p>
+
+### The Payment System facilitates seamless transaction processing
+<p align="center">
+  <img src="blockpay-transaction.png" alt="BlockPay" width="640">
 </p>
 
 ## SmartBlock
@@ -34,9 +43,13 @@ To set up and use SmartBlock:
   <img src="smartblock-transaction.png" alt="SmartBlock" width="640">
 </p>
 
-## Abstract
 
-The growth of the Internet of Things (IoT) has increased the demand for contactless payments via IoT devices. However, existing centralized transaction management systems in the IoT suffer from communication overhead and security issues. Blockchain technology provides a promising solution, but current blockchain-based payment systems lack security and scalability. To address these challenges, BlockPay proposes a bidirectional blockchain with the Committee Member Auction (CMA) consensus mechanism, offering secure and scalable contactless payments in the IoT.
+## Flow of Control 
+
+<p align="center">
+  <img src="Flowchart.png" alt="SmartBlock" width="640">
+</p>
+
 
 ## Key Features
 
@@ -44,12 +57,6 @@ The growth of the Internet of Things (IoT) has increased the demand for contactl
 - Implementation of a bidirectional blockchain with enhanced security and scalability
 - Committee Member Auction (CMA) consensus mechanism
 - Utilization of Blake and Chameleon hash functions for efficient transaction processing
-
-## Flowchart 
-
-<p align="center">
-  <img src="Flowchart.png" alt="SmartBlock" width="640">
-</p>
 
 ## Installation and Usage
 

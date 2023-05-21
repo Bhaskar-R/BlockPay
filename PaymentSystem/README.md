@@ -12,9 +12,17 @@ To set up the PaymentSystem, you will need the following components:
 
 Follow these steps to set up the hardware:
 
-1. Connect the RC522 RFID reader to the ESP32 microcontroller using jumper wires. Make sure to connect the appropriate pins according to the wiring configuration given in the connections image.
+1. Connect the RC522 RFID reader to the ESP32 microcontroller using jumper wires. Make sure to connect the appropriate pins according to the wiring configuration given below.
+<p align="center">
+  <img src="../Connections.png" alt="BlockPay" width="480">
+</p>
 
 2. Double-check the connections to ensure they are secure and properly aligned.
+
+### Payment System Built using ESP32 and RC522 RFID Reader
+<p align="center">
+  <img src="../BlockPay.jpg" alt="BlockPay" width="480">
+</p>
 
 ## Software Setup
 
@@ -29,6 +37,11 @@ To compile and upload the code to the ESP32 microcontroller, we will be using Pl
 4. Build and upload the code to the ESP32 microcontroller using PlatformIO. This can typically be done by selecting the appropriate upload command in your code editor or by using the PlatformIO command line interface.
 
 5. After the code is successfully uploaded, the PaymentSystem should be ready to use.
+
+### The Payment System facilitates seamless transaction processing
+<p align="center">
+  <img src="../blockpay-transaction.png" alt="BlockPay" width="640">
+</p>
 
 ## Usage
 

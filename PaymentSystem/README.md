@@ -38,10 +38,6 @@ To compile and upload the code to the ESP32 microcontroller, we will be using Pl
 
 5. After the code is successfully uploaded, the PaymentSystem should be ready to use.
 
-### The Payment System facilitating seamless transaction processing
-<p align="center">
-  <img src="../blockpay-transaction.png" alt="BlockPay" width="640">
-</p>
 
 ## Usage
 
@@ -58,6 +54,11 @@ To use the PaymentSystem, follow these steps:
 5. Once the payment is processed, the system will provide a confirmation message.
 
 6. Repeat the process for subsequent payments.
+
+### The Payment System facilitating seamless transaction processing
+<p align="center">
+  <img src="../blockpay-transaction.png" alt="BlockPay" width="640">
+</p>
 
 ## Contributing
 

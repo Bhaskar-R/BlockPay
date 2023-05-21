@@ -46,10 +46,11 @@ To set up and use SmartBlock:
 
 ## Flow of Control 
 
+When an RFID card is tapped on the RC522 reader, user data is transmitted to the ESP32. Using its WiFi module, the ESP32 sends the sender's address, receiver's address, and transaction amount to Firebase. The blockchain network monitors Firebase for new transactions. Upon recording a new transaction in Firebase, a corresponding record is created in the blockchain to store the transaction data. The smart card balance is then updated by deducting the transaction amount. 
+
 <p align="center">
   <img src="Flowchart.png" alt="SmartBlock" width="640">
 </p>
-
 
 ## Key Features
 

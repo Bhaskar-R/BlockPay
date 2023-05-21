@@ -28,6 +28,12 @@ To set up and use SmartBlock:
 2. Follow the instructions in the README file to compile and run the SmartBlock blockchain.
 3. Interact with the SmartBlock blockchain by initiating transactions, querying the ledger, and participating in the consensus mechanism.
 
+### SmartBlock recording the transactions in its bidirectional blockchain system.
+
+<p align="center">
+  <img src="smartblock-transaction.png" alt="SmartBlock" width="640">
+</p>
+
 ## Abstract
 
 The growth of the Internet of Things (IoT) has increased the demand for contactless payments via IoT devices. However, existing centralized transaction management systems in the IoT suffer from communication overhead and security issues. Blockchain technology provides a promising solution, but current blockchain-based payment systems lack security and scalability. To address these challenges, BlockPay proposes a bidirectional blockchain with the Committee Member Auction (CMA) consensus mechanism, offering secure and scalable contactless payments in the IoT.
@@ -38,6 +44,12 @@ The growth of the Internet of Things (IoT) has increased the demand for contactl
 - Implementation of a bidirectional blockchain with enhanced security and scalability
 - Committee Member Auction (CMA) consensus mechanism
 - Utilization of Blake and Chameleon hash functions for efficient transaction processing
+
+## Flowchart 
+
+<p align="center">
+  <img src="Flowchart.png" alt="SmartBlock" width="640">
+</p>
 
 ## Installation and Usage
 

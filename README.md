@@ -37,7 +37,7 @@ To set up and use SmartBlock:
 2. Follow the instructions in the README file to compile and run the SmartBlock blockchain.
 3. Interact with the SmartBlock blockchain by initiating transactions, querying the ledger, and participating in the consensus mechanism.
 
-### SmartBlock recording the transactions in its bidirectional blockchain system.
+### SmartBlock recording the transactions in its bidirectional blockchain system
 
 <p align="center">
   <img src="smartblock-transaction.png" alt="SmartBlock" width="640">
